@@ -172,3 +172,6 @@ cython_debug/
 
 # Do not include folder: figures/ and its contents
 figures/
+
+# All vscode-installation specific settings
+.vscode
