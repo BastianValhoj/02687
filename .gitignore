@@ -178,3 +178,4 @@ figures/
 
 # ignore .zip folders
 *.zip
+*.png
