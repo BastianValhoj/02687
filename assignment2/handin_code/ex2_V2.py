@@ -197,7 +197,7 @@ class Parabolic:
             ax = [ax,]
             frames = [frames,]
         else:
-            fig, ax = plt.subplots(1, len(frames), figsize=(8,4), sharey=True)
+            fig, ax = plt.subplots(1, len(frames), figsize=(10,6), sharey=True)
         
         # ax[0].plot(self.x_full, self.U_solution[frames[0], :])
         for i, frame in enumerate(frames):
