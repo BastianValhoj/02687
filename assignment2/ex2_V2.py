@@ -4,7 +4,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.sparse import diags, identity
 from matplotlib.animation import FuncAnimation
+from pathlib import Path
 
+# %% ==== make directory for figures ====
+figures_dir = Path("figures")
+figures_dir.mkdir(parents=True, exist_ok=True)
 
 # %% ===== Problem parameters =====
 ####################################
